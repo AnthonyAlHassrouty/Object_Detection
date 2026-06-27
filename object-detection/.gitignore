@@ -1,0 +1,17 @@
+# Java build output
+java-concurrency/out/
+java-concurrency/target/
+*.class
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# YOLOv8 model weights (too large for GitHub)
+*.pt
+
+# IDE files
+.idea/
+.vscode/
+*.iml
