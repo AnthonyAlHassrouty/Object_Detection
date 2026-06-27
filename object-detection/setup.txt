@@ -1,0 +1,5 @@
+cd "C:\Users\USER\Desktop\programmation concurrente et repartie (sem8F)\Final-Project\object-detection-final\object-detection\java-concurrency"
+
+javac -d out (Get-ChildItem -Recurse -Filter *.java src\main\java | ForEach-Object FullName)
+
+java -cp out com.birddetection.main.MainApp

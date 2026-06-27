@@ -1,0 +1,23 @@
+# Core AI / detection
+ultralytics>=8.0.0          # YOLOv8 — primary detection backend
+torch>=2.0.0                # PyTorch (pulled in by ultralytics)
+torchvision>=0.15.0
+
+# Image processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# API
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Utilities
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Optional: for training dataset management
+# roboflow>=1.0.0           # Uncomment to download datasets from Roboflow
+
+# Dev / testing
+pytest>=7.4.0
